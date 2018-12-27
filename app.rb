@@ -34,6 +34,7 @@ class App < Sinatra::Base
     else 
       params[:number1] / params[:number2]
   end
+end
   
 
 end
