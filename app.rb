@@ -24,5 +24,7 @@ class App < Sinatra::Base
    "#{@w}"
   end
   
+  get ""
+  
 
 end
