@@ -24,7 +24,10 @@ class App < Sinatra::Base
    "#{@w}"
   end
   
-  get ""
+  get "/:operation/:number1/:number2" do
+    
+    
+  end
   
 
 end
